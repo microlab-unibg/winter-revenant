@@ -1,0 +1,5 @@
+# install ampy
+pip install adafruit-ampy 
+
+# flash main.py to micro
+ampy --port /dev/ttyACM0 put main.py main.py
